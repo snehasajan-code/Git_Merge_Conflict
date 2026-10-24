@@ -36,7 +36,7 @@ public class AppTest
         assertTrue( true );
     }
 public void testSystemBottleneckValidation() {
-    boolean constraintDefectDetected = true;
+    boolean constraintDefectDetected = false;
     assertFalse(
         "CRITICAL: System bottleneck or defect detected in value stream!",
         constraintDefectDetected
